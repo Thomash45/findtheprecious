@@ -1,0 +1,830 @@
+@font-face {
+    font-family:"Tengwar";
+    src:url("font/Tengwarc.eot?") format("eot"),
+    url("font/Tengwarc.woff") format("woff"),
+    url("font/Tengwarc.ttf") format("truetype"),
+    url("font/Tengwarc.svg#TengwarCursive") format("svg");
+    font-weight: normal;
+    font-style: normal;
+    }
+
+@font-face {font-family:"Amiron";
+    src:url("font/anirm___.ttf") format("truetype");
+    font-weight:normal;font-style:normal;}
+
+@font-face {font-family:"AmironB";
+    src:url("font/anirb___.ttf") format("truetype");       
+        font-weight:normal;font-style:normal;}
+
+ @font-face {font-family:"AmironB";
+        src: url("font/anirb___.ttf") format("truetype");
+        font-weight:normal;font-style:normal;}
+
+ @font-face {font-family:"PartyB";
+        src: url("font/partybusiness.ttf") format("truetype");
+        font-weight:normal;font-style:normal;}
+
+
+
+
+
+
+
+.navbar-brand {
+   padding-right: 10px;
+    padding-top: 10px;
+    
+}
+
+
+
+.navbar {
+    background-color:#ff5f01;
+    margin-bottom:0px;
+   
+}
+
+
+.navbar-default {
+    border-radius: 0px;
+    border: 0px
+}
+
+
+
+
+
+
+.navbar-default .navbar-nav > li > a {
+ color:white;
+    font-family: "Aniron";
+}
+
+.bouton-wanted {
+    display: flex;
+    justify-content: center;
+   
+    align-items: center;
+     flex-wrap: wrap;
+    margin-bottom: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.navwanted {
+    display: flex;
+    justify-content: center;
+     flex-wrap: wrap;
+ margin: 0;
+    padding: 0;
+    font-family: "Aniron";
+}
+
+
+.navbar-text a{
+    margin: 0;
+    padding: 0;
+    color:grey;
+    text-decoration: none;
+
+ font-size: 14px;
+     font-family:"AmironB";
+}
+
+.navbar-text a:hover
+{
+   margin-bottom: 0;
+    padding-bottom: 0;
+    border-bottom: 2px solid #ff5f01;
+  
+  color:#ff5f01;
+  text-decoration: none;
+   
+}
+
+.navbar-text li {
+margin: 0;
+    padding: 0;		
+
+}
+.navbar-text>li>a:hover {
+	background-color: transparent;
+}
+.navbar-text>li>a:active  {
+	background-color: transparent;
+
+}
+.navbar-text>li>a:focus  {
+	background-color: transparent;
+
+}
+
+.navbar-text a:hover {
+	background-color: transparent;
+}
+.navbar-text a:active  {
+    margin-bottom: 0;
+    padding-bottom: 0;
+	background-color: transparent;
+    border-bottom: 2px solid #ff5f01;
+  color:#ff5f01;
+}
+.navbar-text a:focus  {
+    margin-bottom: 0;
+    padding-bottom: 0;
+	background-color: transparent;
+    border-bottom: 2px solid #ff5f01;
+  color:#ff5f01;
+}
+.vignette {
+    margin-top: 0;
+    padding-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    margin-left: 30px;
+    margin-right: 30px;
+    
+}
+.navbar-text>li>a:hover .symbole1 {
+	color:#ff5f01;
+ 
+}
+
+.navbar-text>li>a:focus .symbole1 {
+	color:#ff5f01;
+ 
+}
+
+
+.carousel-caption {
+    top: 30%;
+    bottom: auto;
+    font-family: "Party Business";
+    text-align: left
+     
+}
+
+.carousel-caption h1 {
+    font-size: 20px;
+     
+}
+
+.carousel-caption p {
+    font-size: 15px;
+     
+}
+
+
+
+
+
+.thumbnail
+{
+ background-color: black;
+ 
+ 
+}
+
+.thumbnail img
+{
+
+
+ z-index:1;
+ transition: .5s ease;
+ opacity: .5; 
+    
+    -webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.caption
+{
+
+  margin: -20px 0px;
+ 
+    font-family: "Party Business";
+       
+}
+
+.reward  
+{
+  position: absolute; 
+  width:75%;
+  max-height:36%;
+  left: 12.5%;
+  top: 5%;
+  right: 12.5%;  
+  padding: 0px; 	
+  border-radius: 12px;  
+  background-color:rgba(255, 255, 255, 0.7);
+  transition: .5s ease;
+  z-index:2;
+  font-family: "PartyB";
+  font-size: 12px; 
+}
+
+.reward p 
+{
+  font-size: 2.5em; 
+  color: black;
+ margin : 0 auto;
+    margin-top: 1%;
+  text-align: center;  
+}
+
+span  
+{
+  color: #fc5d1f; 
+
+}
+
+.name 
+{  
+  position: relative; 
+
+  left: 16px;
+
+  right: 16px;  
+  padding: 0; 	
+ text-align: center;  
+ 
+  transition: .5s ease;
+  z-index:2;
+  font-size: 40px;
+  font-family: "Party Business"; 
+  color: white;
+}
+
+.thumbnail:hover img 
+{ 
+  opacity: 1;  
+    -webkit-filter: grayscale(0);
+	filter: grayscale(0);
+}
+
+.thumbnail:hover .reward 
+{ 
+  opacity: 0;  
+}
+
+.thumbnail:hover .name 
+{ 
+  font-size: 40px; 
+ 
+  opacity: 1;
+  top: 65%;
+}
+ 
+
+.bouton-wanted {
+    margin-bottom: 50px
+}
+
+.caption h3 {
+    font-size: 29px;
+    color:grey;
+    
+}
+
+.titre-fellow-lg h3 {
+     font-size: 24px;
+     font-family:"AmironB";
+    margin-left: 25px;
+  
+    
+}
+
+
+.titre-fellow-petit {
+    font-family: "AmironB";
+    color:black;
+    font-size: 18px;
+}
+
+.symbole {
+    font-family: "Tengwar";
+        color:#ff5f01;
+    font-size: 72px;
+  vertical-align: 15px;
+}
+
+
+.symbole1 {
+    font-family: "Party Business";
+        color:transparent;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    
+  
+}
+
+.fellow-wanted {
+    background-image: url(image/bg_light.png); }
+
+
+
+
+
+    
+ 
+
+@media (max-width: 479px) {
+  .logo {width: 150px; 
+    }
+    
+    
+    .navbar-brand {
+   padding-right: 10px;
+    padding-top: 15px;
+    
+}
+  .container {padding: 0;}
+     
+     
+       div .titre-fellow-lg h3 {
+     font-size: 4vw;
+     font-family:"AmironB";
+    margin-left: 0px;}
+      
+      div .titre-fellow-petit {
+      font-family: "AmironB";
+    color:black;
+          font-size: 9px;}
+      
+      .symbole {
+    font-family: "Tengwar";
+        color:#ff5f01;
+    font-size: 50px;
+  vertical-align: 11px;
+}
+    
+         .carousel-caption {
+             
+             display: none;
+    top: 10%;
+
+     }
+     
+  .carousel-caption h1 {
+    font-size: 6vw;
+     
+}
+
+.carousel-caption p {
+    font-size: 3.6vw;
+     
+}  
+ .thumbnail img
+{
+
+
+ z-index:1;
+ transition: .5s ease;
+ opacity: 1; 
+    
+   
+}
+    
+    
+    .reward  
+{
+  position:relative;
+  width:75%;
+  max-height:36%;
+  left: 12.5%;
+  top: 5%;
+  right: 12.5%;  
+  padding: 0px; 	
+  border-radius: 0;  
+  background-color:black;
+  transition: .5s ease;
+  z-index:2;
+  font-family: "PartyB";
+  font-size: 2.5vw; 
+}  
+    
+    .reward p 
+{
+  font-size: 2.5em; 
+  color: white;
+ margin : 0 auto;
+    margin-top: 0%;
+  text-align: center;  
+}
+
+span  
+{
+  color: #fc5d1f; 
+
+}
+
+.name 
+{  
+  position: relative; 
+
+  left: 0px;
+   padding: 0;
+  padding-bottom: 20px;
+  	
+ text-align: center;  
+ 
+
+
+  font-size: 40px;
+  font-family: "Party Business"; 
+  color: white;
+}
+
+.thumbnail:hover img 
+{ 
+  opacity: 1;  
+ 
+}
+
+.thumbnail:hover .reward 
+{ 
+  opacity: 1;  
+}
+
+.thumbnail:hover .name 
+{ 
+  font-size: 40px; 
+ position: relative; 
+  opacity: 1;
+  
+}
+   
+    
+    .caption h3 {
+  display: none;
+    
+}        
+    
+}
+
+
+
+
+ @media (min-width: 480px) {
+  .logo {width: 271px;}
+  .container {padding: 0;}
+     
+     
+       div .titre-fellow-lg h3 {
+     font-size: 20px;
+     font-family:"AmironB";
+    margin-left: 0px;}
+      
+      div .titre-fellow-petit {
+      font-family: "AmironB";
+    color:black;
+          font-size: 14px;}
+      
+      .symbole {
+    font-family: "Tengwar";
+        color:#ff5f01;
+    font-size: 50px;
+  vertical-align: 11px;
+}
+    
+     .carousel-caption {
+    top: 15%;
+
+     }
+     
+  .carousel-caption h1 {
+    font-size: 6vw;
+     
+}
+
+.carousel-caption p {
+    font-size: 3.6vw;
+     
+}   
+     
+ .thumbnail img
+{
+
+
+ z-index:1;
+ transition: .5s ease;
+ opacity: 1; 
+    
+   
+}
+    
+    
+    .reward  
+{
+  position:relative;
+  width:75%;
+  max-height:36%;
+  left: 12.5%;
+  top: 5%;
+  right: 12.5%;  
+  padding: 0px; 	
+  border-radius: 0;  
+  background-color:black;
+  transition: .5s ease;
+  z-index:2;
+  font-family: "PartyB";
+  font-size: 2.5vw; 
+}  
+    
+    .reward p 
+{
+  font-size: 2.5em; 
+  color: white;
+ margin : 0 auto;
+    margin-top: 0%;
+  text-align: center;  
+}
+
+span  
+{
+  color: #fc5d1f; 
+
+}
+
+.name 
+{  
+  position: relative; 
+
+  left: 0px;
+   padding: 0;
+  padding-bottom: 1px;
+  	
+ text-align: center;  
+ 
+  transition: .5s ease;
+  z-index:2;
+  font-size: 40px;
+  font-family: "Party Business"; 
+  color: white;
+}
+
+.thumbnail:hover img 
+{ 
+  opacity: 1;  
+ 
+}
+
+.thumbnail:hover .reward 
+{ 
+  opacity: 1;  
+}
+
+.thumbnail:hover .name 
+{ 
+   font-size: 40px;
+ 
+  opacity: 1;
+  
+}   
+     
+
+     
+     
+}
+
+ @media (min-width: 768px) {
+    
+ .container {padding: 0;}
+  .logo {width: 271px;}   
+     
+       div .titre-fellow-lg h3 {
+     font-size: 20px;
+     font-family:"AmironB";
+    margin-left: 0px;}
+      
+      div .titre-fellow-petit {
+      font-family: "AmironB";
+    color:black;
+          font-size: 14px;}
+      
+      .symbole {
+    font-family: "Tengwar";
+        color:#ff5f01;
+    font-size: 68px;
+  vertical-align: 11px;
+}
+  
+     .carousel-caption {
+    top: 25%;
+
+     }
+     
+      .carousel-caption h1 {
+    font-size: 41.5px;
+     
+}
+
+.carousel-caption p {
+    font-size: 25px;
+     
+}
+     .caption h3 {
+    font-size: 22px;
+    color:grey;
+    padding-bottom: 15px
+}       
+     
+ 
+     
+     .thumbnail
+{
+ background-color: black;
+ 
+ 
+}
+
+.thumbnail img
+{
+
+
+ z-index:1;
+ transition: .5s ease;
+ opacity: .5; 
+    
+    -webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.caption
+{
+
+  margin: -20px 0px;
+ 
+    font-family: "Party Business";
+       
+}
+
+.reward  
+{
+  position: absolute; 
+  width:75%;
+  max-height:36%;
+  left: 12.5%;
+  top: 5%;
+  right: 12.5%;  
+  padding: 0px; 	
+  border-radius: 12px;  
+  background-color:rgba(255, 255, 255, 0.7);
+  transition: .5s ease;
+  z-index:2;
+  font-family: "PartyB";
+  font-size: 12px; 
+}
+
+.reward p 
+{
+  font-size: 2.5em; 
+  color: black;
+ margin : 0 auto;
+    margin-top: 1%;
+  text-align: center;  
+}
+
+span  
+{
+  color: #fc5d1f; 
+
+}
+
+.name 
+{  
+  position: absolute; 
+
+  left: 16px;
+  top: 40%;
+  right: 16px;  
+  padding: 0; 	
+ text-align: center;  
+ 
+  transition: .5s ease;
+  z-index:2;
+  font-size: 50px;
+  font-family: "Party Business"; 
+  color: white;
+}
+
+.thumbnail:hover img 
+{ 
+  opacity: 1;  
+    -webkit-filter: grayscale(0);
+	filter: grayscale(0);
+}
+
+.thumbnail:hover .reward 
+{ 
+  opacity: 0;  
+}
+
+.thumbnail:hover .name 
+{ 
+  font-size: 30px; 
+ 
+  opacity: 1;
+  top: 65%;
+}
+ 
+
+     
+     
+ 
+  }
+
+  @media (min-width: 992px) {
+.container {padding: 0;}
+      
+      div .titre-fellow-lg h3 {
+     font-size: 20px;
+     font-family:"AmironB";
+    margin-left: 25px;}
+      
+      div .titre-fellow-petit {
+      font-family: "AmironB";
+    color:black;
+          font-size: 14px;}
+      
+      .symbole {
+    font-family: "Tengwar";
+        color:#ff5f01;
+    font-size: 68px;
+  vertical-align: 11px;
+}
+
+      .carousel-caption {
+    top: 30%;
+
+     }
+      
+      .carousel-caption h1 {
+    font-size: 54px;
+     
+}
+
+.carousel-caption p {
+    font-size: 33px;
+     
+}
+          
+ .caption h3 {
+    font-size: 22px;
+    color:grey;
+    padding-bottom: 15px
+}       
+      
+          
+  }
+
+
+@media (min-width: 1200px) {
+  .container {width: 1130px;padding: 0;}
+  
+
+div .titre-fellow-lg h3 {
+     font-size: 24px;
+     font-family:"AmironB";
+    margin-left: 25px;}
+    
+     div .titre-fellow-petit {
+      font-family: "AmironB";
+    color:black;
+         font-size: 18px;}
+    
+    
+    
+    .carousel-caption {
+    top: 30%;
+
+     }
+    
+    .carousel-caption h1 {
+    font-size: 63px;
+     
+}
+
+.carousel-caption p {
+    font-size: 38px;
+     
+} 
+   
+    .caption h3 {
+    font-size: 29px;
+    color:grey;
+    padding-bottom: 15px
+}       
+    
+}
+
+
+.row {
+    margin: 0;
+    padding: 0;
+}

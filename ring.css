@@ -1,0 +1,95 @@
+.ring-solo-orange {
+    z-index: 1;
+    vertical-align: middle;
+    display: inline-block;
+    margin-right: 0;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 3.5px solid #ff6905;
+    filter: drop-shadow(1.17px 1.17px 2px #d15400);
+}
+
+.ring-solo-yellow {
+    z-index: 1;
+    vertical-align: middle;
+    display: inline-block;
+    margin-right: 0;
+    width: 213px;
+    height: 213px;
+    border-radius: 50%;
+    border: 14.91px solid #fcca03;
+    filter: drop-shadow(4.9842px 4.9842px 2px #caa202);
+}
+
+.ring-multiple-blue:nth-child(1) {
+    z-index: 1;
+    vertical-align: middle;
+    display: inline-block;
+    margin-right: -22.5px;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border: 3.15px solid #3b3b3b;
+    filter: drop-shadow(1.053px 1.053px 2px #222222);
+}
+
+.ring-multiple-blue:nth-child(2) {
+    z-index: 2;
+    vertical-align: middle;
+    display: inline-block;
+    margin-right: -27.5px;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    border: 3.85px solid #3b3b3b;
+    filter: drop-shadow(1.287px 1.287px 2px #222222);
+}
+
+.ring-multiple-blue:nth-child(3) {
+    z-index: 3;
+    vertical-align: middle;
+    display: inline-block;
+    margin-right: -32.5px;
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    border: 4.55px solid #3b3b3b;
+    filter: drop-shadow(1.521px 1.521px 2px #222222);
+}
+
+.ring-multiple-blue:nth-child(4) {
+    z-index: 4;
+    vertical-align: middle;
+    display: inline-block;
+    margin-right: -37.5px;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    border: 5.25px solid #3b3b3b;
+    filter: drop-shadow(1.755px 1.755px 2px #222222);
+}
+
+.ring-multiple-blue:nth-child(5) {
+    z-index: 5;
+    vertical-align: middle;
+    display: inline-block;
+    margin-right: -42.5px;
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+    border: 5.95px solid #3b3b3b;
+    filter: drop-shadow(1.989px 1.989px 2px #222222);
+}
+
+.ring-multiple-blue:nth-child(6) {
+    z-index: 6;
+    vertical-align: middle;
+    display: inline-block;
+    margin-right: -47.5px;
+    width: 95px;
+    height: 95px;
+    border-radius: 50%;
+    border: 6.65px solid #3b3b3b;
+    filter: drop-shadow(2.223px 2.223px 2px #222222);
+}
